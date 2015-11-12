@@ -21,8 +21,8 @@ int main() {
 
 	moja_ksiazka.set_imie("Albert");
 	moja_ksiazka.set_nazwisko("Einstein");
-//	moja_ksiazka.set_data_ur(Data(14, 3, 1879));
-	moja_ksiazka.set_data_ur(14,3,1879);
+	moja_ksiazka.set_data_ur(Data(14, 3, 1879));
+//	moja_ksiazka.set_data_ur(14,3,1879);
 
 	cout << "Imie " << moja_ksiazka.get_imie() << endl;
 	cout << "Nazwisko " << moja_ksiazka.get_nazwisko() << endl;
